@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+
+    width: 100%;
+    min-height: 200px;
+    gap: 10px;
+
+    background-color: var(--cor-rosa);
+}
+
+.textoEmCaixas {
+    text-align: center;
+    max-width: 400px;
+}

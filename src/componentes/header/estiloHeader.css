@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secHeader {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+
+    background-color: var(--cor-roxa);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    z-index: 10;
+}
+
+.tamanhoFotoIcone {
+    width: 70px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menuHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem 2rem;
+
+    width: 200px;
+    height: 100%;
+}
+
+.navBtn {
+    display: flex;
+    place-items: center;
+    height: 100%;
+    padding: 0px 10px;
+
+    background-color: var(--cor-roxa);
+    border: none;
+    font-size: 1.25rem;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: .2s;
+}
+.navBtn:hover {
+    background-color: var(--cor-verde);
+    color: #fff;
+    border-radius: 10px;
+}

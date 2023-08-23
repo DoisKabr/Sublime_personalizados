@@ -1,0 +1,17 @@
+:root {
+    --cor-roxa: #e040fc;
+    --cor-rosa: #d9aec1;
+    --cor-verde:  #8fa830;
+    --cor-preto: #000000;
+    --cor-sombra: #dad4d4;
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family= Lagosta & display =swap');
+/* font-family: 'Lobster', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

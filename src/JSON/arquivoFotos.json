@@ -1,0 +1,206 @@
+[
+    {
+        "id": "01",
+        "categoria": "canecas",
+        "nome": "Personalizada com foto",
+        "url": "./imagens/canecas/01.jpg"
+    },
+    {
+        "id": "02",
+        "categoria": "canecas",
+        "nome": "Vovó é mamãe com açucar",
+        "url": "./imagens/canecas/02.jpg"
+    },
+    {
+        "id": "03",
+        "categoria": "canecas",
+        "nome": "Três caneca dia dos pais",
+        "url": "./imagens/canecas/03.jpg"
+    },
+    {
+        "id": "04",
+        "categoria": "canecas",
+        "nome": "Guarda-me ó Deus",
+        "url": "./imagens/canecas/04.jpg"
+    },
+    {
+        "id": "05",
+        "categoria": "canecas",
+        "nome": "Não tenha medo, tenha Fé",
+        "url": "./imagens/canecas/05.jpg"
+    },
+    {
+        "id": "06",
+        "categoria": "canecas",
+        "nome": "Antes de tudo, Fé",
+        "url": "./imagens/canecas/06.jpg"
+    },
+    {
+        "id": "07",
+        "categoria": "canecas",
+        "nome": "Jesus te ama",
+        "url": "./imagens/canecas/07.jpg"
+    },
+    {
+        "id": "08",
+        "categoria": "canecas",
+        "nome": "Deus tem um plano",
+        "url": "./imagens/canecas/08.jpg"
+    },
+    {
+        "id": "09",
+        "categoria": "canecas",
+        "nome": "Não tenha medo, tenha Fé",
+        "url": "./imagens/canecas/09.jpg"
+    },
+    {
+        "id": "10",
+        "categoria": "canecas",
+        "nome": "Lucia",
+        "url": "./imagens/canecas/10.jpg"
+    },
+    {
+        "id": "11",
+        "categoria": "canecas",
+        "nome": "Mãe de gato, Gatinha é",
+        "url": "./imagens/canecas/11.jpg"
+    },
+    {
+        "id": "12",
+        "categoria": "canecas",
+        "nome": "Flores",
+        "url": "./imagens/canecas/12.jpg"
+    },
+    {
+        "id": "14",
+        "categoria": "canecas",
+        "nome": "Tudo posso naquele que me fortalece",
+        "url": "./imagens/canecas/14.jpg"
+    },
+    {
+        "id": "15",
+        "categoria": "canecas",
+        "nome": "Vania",
+        "url": "./imagens/canecas/15.jpg"
+    },
+    {
+        "id": "16",
+        "categoria": "canecas",
+        "nome": "Você tem muito valor para Deus",
+        "url": "./imagens/canecas/16.jpg"
+    },
+    {
+        "id": "17",
+        "categoria": "canecas",
+        "nome": "O Senhor é digno de todo louvor",
+        "url": "./imagens/canecas/17.jpg"
+    },
+    {
+        "id": "18",
+        "categoria": "canecas",
+        "nome": "Seja forte e corajoso !",
+        "url": "./imagens/canecas/18.jpg"
+    },
+    {
+        "id": "19",
+        "categoria": "canecas",
+        "nome": "Tudo é possível ao que crê",
+        "url": "./imagens/canecas/19.jpg"
+    },
+    {
+        "id": "20",
+        "categoria": "canecas",
+        "nome": "O tempo de Deus é perfeito",
+        "url": "./imagens/canecas/20.jpg"
+    },
+    {
+        "id": "21",
+        "categoria": "canecas",
+        "nome": "Tenha fé , Deus te proteje !",
+        "url": "./imagens/canecas/21.jpg"
+    },
+    {
+        "id": "22",
+        "categoria": "canecas",
+        "nome": "Tudo posso naquele que me fortalece",
+        "url": "./imagens/canecas/22.jpg"
+    },
+    {
+        "id": "23",
+        "categoria": "canecas",
+        "nome": "Luana",
+        "url": "./imagens/canecas/23.jpg"
+    },
+    {
+        "id": "24",
+        "categoria": "canecas",
+        "nome": "Hellen",
+        "url": "./imagens/canecas/24.jpg"
+    },
+    {
+        "id": "25",
+        "categoria": "canecas",
+        "nome": "Apenas uma madrinha !",
+        "url": "./imagens/canecas/25.jpg"
+    },
+    {
+        "id": "26",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "./imagens/canecas/26.jpg"
+    },
+    {
+        "id": "27",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "./imagens/canecas/27.jpg"
+    },
+    {
+        "id": "28",
+        "categoria": "canecas",
+        "nome": "Luana",
+        "url": "./imagens/canecas/28.jpg"
+    },
+    {
+        "id": "29",
+        "categoria": "canecas",
+        "nome": "Hellen",
+        "url": "./imagens/canecas/29.jpg"
+    },
+    {
+        "id": "30",
+        "categoria": "canecas",
+        "nome": "Tati",
+        "url": "./imagens/canecas/30.jpg"
+    },
+    {
+        "id": "31",
+        "categoria": "canecas",
+        "nome": "Para uma Amiga !",
+        "url": "./imagens/canecas/31.jpg"
+    },
+    {
+        "id": "32",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "./imagens/canecas/32.jpg"
+    },
+    {
+        "id": "33",
+        "categoria": "canecas",
+        "nome": "Canecas",
+        "url": "./imagens/canecas/33.jpg"
+    },
+    {
+        "id": "34",
+        "categoria": "canecas",
+        "nome": "Alessandra",
+        "url": "./imagens/canecas/34.jpg"
+    },
+    {
+        "id": "35",
+        "categoria": "canecas",
+        "nome": "Eliana sanders",
+        "url": "./imagens/canecas/35.jpg"
+    }
+]

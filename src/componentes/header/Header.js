@@ -17,8 +17,8 @@ export default function Header(props) {
     }
 
 
-    return <section className="secHeader">
-        <img src={props.icone} alt="icone-sublime" className="tamanhoFotoIcone"/>
+    return <header className="secHeader">
+        <img src="./imagens/icone/sublime.jpg" alt="icone-sublime" className="tamanhoFotoIcone"/>
 
         <nav className="menuHeader">
             <button className="navBtn" onClick={(e)=>Pagina(e)}>Inicio</button>
@@ -26,5 +26,5 @@ export default function Header(props) {
             <button className="navBtn" onClick={(e)=>Pagina(e)}>Contatos</button>
         </nav>
 
-    </section>
+    </header>
 }

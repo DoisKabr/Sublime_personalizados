@@ -41,7 +41,7 @@
     display: flex;
     place-items: center;
     height: 100%;
-    padding: 0px 10px;
+    margin: 0px 10px;
 
     background-color: var(--cor-roxa);
     border: none;

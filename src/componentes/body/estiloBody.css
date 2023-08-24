@@ -34,6 +34,9 @@
     column-gap: 0px;
     column-rule: 10px;
     height: auto !important;
+
+    border: none !important;
+    box-shadow: 0px 0px 0px var(--cor-sombra) !important;
 }
 
 .fotosIcones {
@@ -49,6 +52,11 @@
 }
 
 .fotos_fotos {
+    position: relative;
+
+    display: flex;
+    place-items: center;
+
     width: 90%;
     border-radius: 5px;
     filter: drop-shadow(0px 0px 5px var(--cor-sombra));

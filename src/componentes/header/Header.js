@@ -6,13 +6,13 @@ export default function Header(props) {
 
     function Pagina(e) {
         if(e.target.innerHTML === "Inicio"){
-            props.setPagina(1);
+            window.location.assign(window.location.origin + "/inicio");
         }
         if(e.target.innerHTML === "Imagens"){
-            props.setPagina(2);
+            window.location.assign(window.location.origin + "/fotos");
         }
         if(e.target.innerHTML === "Contatos"){
-            props.setPagina(3);
+            window.location.assign(window.location.origin + "/contatos");
         }
     }
 

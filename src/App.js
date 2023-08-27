@@ -14,9 +14,11 @@ export default function App() {
   const [pagina, setPagina] = useState(1);
 
 
+  console.log(window.location);
+
   return (<>
     <Header pagina={pagina} setPagina={setPagina} />
-    <Body pagina={pagina} />
+    <Body pagina={pagina} setPagina={setPagina} />
     <Footer />
     <MenuFlutuante />
   </>)

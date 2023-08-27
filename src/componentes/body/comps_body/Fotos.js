@@ -1,27 +1,36 @@
-import React from "react";
+import React , { useState } from "react";
 import produtos from "../../../JSON/arquivoFotos.json";
-import searchIcon from "../../../icones/search.svg";
 
 
 export default function Fotos(props) {
+    
+    const [valorIp1, setValorIp1] = useState('');
+    const pegarValorInput = (e) => {
+        setValorIp1(e.target.value);
+    };
 
-    const fotos = []
 
+    let fotos = [];
     const colocarImg = () => {
-            const prod = produtos
-                prod.forEach(e=>{
-                    fotos.push(<img key={e.id} src={e.url} alt={e.nome} title={e.nome} className="fotos_fotos" />)
-                })
+        fotos = [];
+        const prod = produtos
+        prod.forEach(e=>{
+            if(e.id.includes(valorIp1) || e.categoria.toLowerCase().includes(valorIp1.toLowerCase()) || 
+            e.nome.toLowerCase().includes(valorIp1.toLowerCase())){
+            fotos.push(<img key={e.id} src={e.url} alt={e.nome} title={e.nome} className="fotos_fotos" />);
+            }
+        })
         return (fotos)
     };
+
 
 
     return (
         <>
             <main className="sectionPadrao">
                 <div className="divBarraPesquisa" >
-                    <input type="text" placeholder="=> canecas..." className="barraPesquisa" />
-                    <button className="padraoButton"><img src={searchIcon} alt="icone-pesquisa-sublime" /></button>
+                    <h3 className="padraoButton">Pesquisar</h3>
+                    <input type="text" placeholder="=> canecas..." className="barraPesquisa" onInput={(e)=>{pegarValorInput(e)}} />
                 </div>
                 <section className="secsBody secsBodyFotos">
                     {colocarImg()}
@@ -30,3 +39,4 @@ export default function Fotos(props) {
         </>
     )
 }
+

@@ -17,7 +17,12 @@ export default function Fotos(props) {
         prod.forEach(e=>{
             if(e.id.includes(valorIp1) || e.categoria.toLowerCase().includes(valorIp1.toLowerCase()) || 
             e.nome.toLowerCase().includes(valorIp1.toLowerCase())){
-            fotos.push(<img key={e.id} src={e.url} alt={e.nome} title={e.nome} className="fotos_fotos" />);
+            fotos.push(
+                <div className="divImg">
+                    <img key={e.id} src={e.url} alt={e.nome} title={e.nome} className="fotos_fotos" />
+                    <h3 className="textoPadraoImg">{e.nome}</h3>
+                </div>
+            );
             }
         })
         return (fotos)
@@ -30,7 +35,7 @@ export default function Fotos(props) {
             <main className="sectionPadrao">
                 <div className="divBarraPesquisa" >
                     <h3 className="padraoButton">Pesquisar</h3>
-                    <input type="text" placeholder="=> canecas..." className="barraPesquisa" onInput={(e)=>{pegarValorInput(e)}} />
+                    <input type="text" placeholder="=> categorias, nomes, ..." className="barraPesquisa" onInput={(e)=>{pegarValorInput(e)}} />
                 </div>
                 <section className="secsBody secsBodyFotos">
                     {colocarImg()}

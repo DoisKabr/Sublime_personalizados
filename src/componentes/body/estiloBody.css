@@ -27,13 +27,15 @@
     box-shadow: 0px 0px 10px var(--cor-sombra);
     overflow: hidden;
 }
+
 .secsBodyFotos {
     display: inline-block !important;
     place-items: center;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 10px;
     column-rule: 10px;
     height: auto !important;
+    padding: 5px;
 
     border: none !important;
     box-shadow: 0px 0px 0px var(--cor-sombra) !important;
@@ -45,10 +47,26 @@
     transition: .2s;
     cursor: pointer;
 }
+
 .fotosIcones:hover {
     transform: scale(1.1);
-    filter: drop-shadow(10px 10px 10px var(--cor-sombra))
-            drop-shadow(10px 10px 10px var(--cor-sombra));
+    filter: drop-shadow(10px 10px 10px var(--cor-sombra)) drop-shadow(10px 10px 10px var(--cor-sombra));
+}
+
+.divImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10px 0px;
+    width: 100%;
+
+    background-color: #fff;
+    filter: drop-shadow(0px 0px 5px var(--cor-sombra));
+    border-radius: 5px;
+
+    overflow: hidden;
 }
 
 .fotos_fotos {
@@ -57,20 +75,26 @@
     display: flex;
     place-items: center;
 
-    width: 90%;
-    border-radius: 5px;
-    filter: drop-shadow(0px 0px 5px var(--cor-sombra));
+    width: 100%;
     transition: .2s;
-    margin: 10px;
+    margin: 0px;
 }
-.fotos_fotos:hover {
-    transform: scale(1.05);
+
+.textoPadraoImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 50px;
+    font-size: 1.1rem;
 }
 
 .divBarraPesquisa {
     position: sticky;
     top: -9px;
-    
+
 
     display: flex;
     align-items: end;
@@ -82,6 +106,7 @@
 
     z-index: 21;
 }
+
 .barraPesquisa {
     width: 300px;
     height: 30px;
@@ -91,9 +116,11 @@
     border: 1px solid var(--cor-sombra);
     outline: none;
 }
+
 .barraPesquisa:hover {
     border: 1px solid var(--cor-roxa);
 }
+
 .barraPesquisa:focus {
     border: 1px solid var(--cor-roxa);
 }
@@ -134,37 +161,59 @@
         height: auto !important;
     }
 
-    .fotos_fotos {
-        max-width: 300px;
-        margin: 1rem 0rem;
+    .divImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin: 10px 0px;
+        width: 100%;
+
+        background-color: #fff;
+        filter: drop-shadow(0px 0px 5px var(--cor-sombra));
+        border-radius: 5px;
     }
 
     .fotos_fotos {
+        max-width: 300px;
+        margin: 1rem 0rem;
         width: 100%;
         border-radius: 5px;
-        filter: drop-shadow(0px 0px 5px var(--cor-sombra));
         transition: .2s;
         margin: 5px 0px;
     }
 
+    .textoPadraoImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        width: 100%;
+        height: 50px;
+        font-size: 1.0rem;
+    }
+
 
 }
+
 @media (max-width: 900px) {
     .divBarraPesquisa {
         position: sticky;
         top: 50px;
-        
-    
+
+
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 10px;
-    
+
         width: 100%;
         height: 50px;
 
         background-color: #fff;
-    
+
         z-index: 21;
     }
 

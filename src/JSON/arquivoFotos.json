@@ -202,5 +202,170 @@
         "categoria": "canecas",
         "nome": "Eliana sanders",
         "url": "./imagens/canecas/35.jpg"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/01.jpg"
+    },
+    {
+        "id": "02",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/02.jpg"
+    },
+    {
+        "id": "03",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/03.jpg"
+    },
+    {
+        "id": "04",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/04.jpg"
+    },
+    {
+        "id": "05",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/05.jpg"
+    },
+    {
+        "id": "06",
+        "categoria": "chopp",
+        "nome": "Kit Canecas de chopp personalizadas",
+        "url": "./imagens/chopp/06.jpg"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/01.jpg"
+    },
+    {
+        "id": "02",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/02.jpg"
+    },
+    {
+        "id": "03",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/03.jpg"
+    },
+    {
+        "id": "04",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/04.jpg"
+    },
+    {
+        "id": "05",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/05.jpg"
+    },
+    {
+        "id": "06",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/06.jpg"
+    },
+    {
+        "id": "07",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/07.jpg"
+    },
+    {
+        "id": "08",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/08.jpg"
+    },
+    {
+        "id": "09",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/09.jpg"
+    },
+    {
+        "id": "10",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/10.jpg"
+    },
+    {
+        "id": "11",
+        "categoria": "Squize",
+        "nome": "Garrafas Squize personalizadas",
+        "url": "./imagens/squize/11.jpg"
+    },
+
+
+
+
+
+    {
+        "id": "01",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/01.jpg"
+    },
+    {
+        "id": "02",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/02.jpg"
+    },
+    {
+        "id": "03",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/03.jpg"
+    },
+    {
+        "id": "04",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/04.jpg"
+    },
+    {
+        "id": "05",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/05.jpg"
+    },
+    {
+        "id": "06",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/06.jpg"
+    },
+    {
+        "id": "07",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/07.jpg"
+    },
+    {
+        "id": "08",
+        "categoria": "promocoes",
+        "nome": "Promoções personalizados",
+        "url": "./imagens/promocoes/08.jpg"
     }
 ]
